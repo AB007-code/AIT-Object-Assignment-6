@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //Task - 8: WAP to generate a random hexadecimal color code.
+    let hexa="#";
+    let color = "abcde012345678"
+    for(let i=1; i<=6; i++){
+        hexa+=color[Math.floor(Math.random()*color.length)];
+    }
+    console.log(hexa);
+    </script>
+</body>
+</html>

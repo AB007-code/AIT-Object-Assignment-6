@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // Task 3: Using compare operator compare 2 objects and return true or false
+    // accordingly.
+        //  { a: 1, b: 2 }, { a: 1, b: 2 } === true;
+        //  { a: 2, b: 2 }, { a: 1, b: 2 } === false;
+        //  {}, {} === true;
+        let obj1={ a: 1, b: 2 };
+        let obj2={ a: 2, b: 2 };
+    if(obj1.hasOwnProperty("a","b")===obj2.hasOwnProperty("a","b") && obj1.a===obj2.a && obj1.b===obj2.b){
+        console.log("true");
+    }else{
+        console.log("false");
+    }
+    </script>
+</body>
+</html>

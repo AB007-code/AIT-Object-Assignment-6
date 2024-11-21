@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Task -10: WAP to return the first and last day of the current month.
+   let obj = new Date("2024-11-01")
+   let obj1 = new Date("2024-11-30")
+   let start_day = obj.getDay()
+   let last_day = obj1.getDay()
+   let week_day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"]
+   for(let i=0; i<=week_day.length-1; i++){
+    if(i==start_day){
+      console.log(week_day[i]);
+    }
+    if(i==last_day){
+        console.log(week_day[i]);
+    }
+   }
+    </script>
+</body>
+</html>

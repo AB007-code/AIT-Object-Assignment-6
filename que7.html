@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+// Task - 7: Return the day of the week for a given date.
+// Example:
+// Input: “2024-11-18”
+// Output: Monday
+let b = new Date("2024-11-21") // date object has complete detail of date,time,day,month,year.
+// console.log(b) 
+let day = b.getDay() // getDay() is a object method which is saved inside the Date() object.This is prototype object
+// console.log(day)
+let week_day = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+for(let i=0; i<=week_day.length; i++){
+    if(i==day){
+        console.log(week_day[i]);
+    }
+}
+
+    </script>
+</body>
+</html>
